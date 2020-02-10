@@ -281,10 +281,10 @@ endif;
         <a class="nav-link disabled" href="giris.php">Takip Ettiklerim</a>
       </li>
 		<li class="nav-item">
-        <a class="nav-link disabled" href="giris.php">Yazılarım</a>
+        <a class="nav-link disabled" href="giris.php">Mesaj Kutusu</a>
       </li>
 		<li class="nav-item">
-        <a class="nav-link disabled" href="giris.php">Mesaj Kutusu</a>
+        <a class="nav-link disabled" href="giris.php">Bildirimler</a>
       </li>
 		
 		
