@@ -166,7 +166,7 @@ Yazı Ekleme kısmı 3 kısımdan oluşmaktadır
   
   
 # 5-) SEO Yapısı
-Site olabildiğince SEO yapısına uyumlu olarak yapılmıştır.Link yapısıü başlık sırası, meta etiketlerine özen gösterilmiş ve otomatik yapıya bağlanmıştır.Fakat site haritasnın host alındıktan sonra ayarlanmasının daha sağlıklı olduğunu düşündüğümdem hazırlamadım
+Site olabildiğince SEO yapısına uyumlu olarak yapılmıştır.Link yapısı, başlık sırası ve meta etiketlerine özen gösterilmiş ve otomatik yapıya bağlanmıştır.Fakat site haritasnın host alındıktan sonra ayarlanmasının daha sağlıklı olduğunu düşündüğümdem hazırlamadım
 
 # 6-) Kurulum Ayarları
 
@@ -188,7 +188,7 @@ Bu iki ayarı yaptıktan sonra site kullanılmaya ve senin ellerinde geliştiril
 
 Resimde de görüldüğü gibi tüm ayarlar ana.php dosyasının içindeki bu classların içinde açıklamaları ile beraber bölümlere ayrılmış durumda.Evet, biliyorum dosya dizinini görüldüğünde fazlasıya karmaşık duruyor.Fakat class yapıları, javascript kodları en basit halinde ve sıralı bir şekilde kullanılmıştır.Bu yüzden değişiklik yapmak hiç de zor değil.Sadece kafanın karışabileceği bir kaç şeye açıklama getirmek istiyorum
 
-  * Email onayınının kullanıcıya gitmesi için kullanılan emaili nereden değiştrebilirsin ?
+  * Email onayınının kullanıcıya gitmesi için kullanılan emaili nereden değiştirebilirsin ?
   
         kayit_islemleri/mail_gonder şeklinde classı açarsan oradan email ayarlarını dilediğin gibi değiştrebilirsin
         
@@ -199,6 +199,21 @@ Resimde de görüldüğü gibi tüm ayarlar ana.php dosyasının içindeki bu cl
    * Şifreleme methodunu nasıl kendine özgü hale getirebilirsin ?
    
    ana.php'nin en başındaki fonksiyonlar zaten config dosyasında bulunacak tiplerden fonksiyonlardır.Bunlardan krypto isimindeki fonksyion ise benim yazmış olduğum şifreleme methodunu içinde barındırır.Fakat yine de kendine özgü değişiklik yapabilirsin.
+
+   * Hangi dosya hangi kısmın ?
+   
+  1-) Kullanıcı yazısının gözüktüğü dosya 
+  yazılar.php dosyasında
+  
+  2-)Tüm yazılar/Popüler Yazılar kısımlarının bulunduğu dosya
+  index.php dosyasında
+  
+  3-)Yazı ekleme bölümünün bulunduğu dosya
+  yaziekle.php
+  
+  4-)Giriş ve kayıt kısımlarının bulunduğu dosyalar
+  giris.php ve kayit.php
+
 
 # NEDEN MVC YAPISI KULLANMADIN ? 
 
@@ -211,4 +226,4 @@ Resimde de görüldüğü gibi tüm ayarlar ana.php dosyasının içindeki bu cl
   
    Ama ilerleyen zamanda mvc yapısına aktararak kodların daha anlaşılır ve kendine özgü daha kolay değiştirilebilir hale getirmeyi planlıyorum.
    
-  --------------------------------------- TÜM ÖNERİLERE VE GELİŞTİRMELERE HER ZAMAN AÇIĞIM --------------------------------------------
+  --------------------------------------- TÜM ÖNERİLERE VE GELİŞTİRMELERE HER ZAMAN AÇIĞIM -------------------------------------
