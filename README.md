@@ -166,7 +166,11 @@ Yazı Ekleme kısmı 3 kısımdan oluşmaktadır
   
   
 # 5-) SEO Yapısı
-Site olabildiğince SEO yapısına uyumlu olarak yapılmıştır.Link yapısı, başlık sırası ve meta etiketlerine özen gösterilmiş ve otomatik yapıya bağlanmıştır.Fakat site haritasnın host alındıktan sonra ayarlanmasının daha sağlıklı olduğunu düşündüğümdem hazırlamadım
+Site olabildiğince SEO yapısına uyumlu olarak yapılmıştır.Link yapısı, başlık sırası ve meta etiketlerine özen gösterilmiş ve otomatik yapıya bağlanmıştır.Fakat site haritasnın host alındıktan sonra ayarlanmasının daha sağlıklı olduğunu düşündüğümdem hazırlamadım.
+    
+   * SEO için hazır bir 404 NOT FOUND sayfası da bulunmaktadır
+   
+   ![alt text](https://github.com/Lepuz-coder/Forum-Blog-Sitesi-PHP7-JAVASCR-PT-BOOTSTRAP4-/blob/master/%C3%B6rnek%20resimler/error.png)
 
 # 6-) Kurulum Ayarları
 
@@ -175,8 +179,6 @@ Site olabildiğince SEO yapısına uyumlu olarak yapılmıştır.Link yapısı, 
       $db = new PDO("mysql:host=localhost;dbname=dizi_forum;charset=utf8","root","");
       
 2-) Ve dizi_forum.sql dosyasını veritabanınıza eklemeniz gerekiyor.
-
-3-)
 
 Bu iki ayarı yaptıktan sonra site kullanılmaya ve senin ellerinde geliştirilmeye hazır olacaktır İYİ KULLANMALAR ! :)
 
