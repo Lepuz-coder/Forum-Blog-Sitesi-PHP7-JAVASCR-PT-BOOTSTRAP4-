@@ -1,0 +1,27 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+
+
+RewriteRule ^yazilar/(.*)/(.*)/(.*)/(.*)/(.*)$ yazilar.php?tur=$1&ad=$2&baslik=$3&kulad=$4&yazi_id=$5 [QSA,L]
+
+RewriteRule ^keşfet/(.*)$ index.php?aranan=$1 [QSA,L]
+
+RewriteRule ^populer/(.*)/(.*)$ index.php?tip=$1&isim=$2 [QSA,L]
+
+RewriteRule ^yazılar/(.*)/(.*)$ index.php?link=$1&tur=$2 [QSA,L]
+
+RewriteRule ^kullanici/(.*)$ kullanici.php?kulad=$1 [QSA,L]
+
+RewriteRule ^ayarlar$ ayarlar.php [QSA,L]
+
+RewriteRule ^mesaj-kutusu$ chat.php [QSA,L]
+
+
+ErrorDocument 404 http://localhost/php/Bireyselu/forum/errorpage.php
+
+
+
+ 
