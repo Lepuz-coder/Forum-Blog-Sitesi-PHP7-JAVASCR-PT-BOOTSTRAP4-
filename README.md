@@ -13,7 +13,9 @@
 
   # 1-) Kullanılan Diller : 
  * Front End : Html,Css,Bootstrap,javascript,jquery
- * Back End : PHP 7, Ajax
+ * Back End : PHP 7
+ * Back End dinamikliği için : Ajax
+
    
  
 # 2-)Sitenin Kısımları
