@@ -221,7 +221,7 @@ Resimde de görüldüğü gibi tüm ayarlar ana.php dosyasının içindeki bu cl
 
   Öncelikle iki sorunun sorulabileceğini düşünüyorum ve ikisini de aynı başlık altında incelenmesi gerektğini de düşünüyorum.
     Bu sorulardan biri neden Laravel gibi bir framework kullanmadın ?
-    İkincisi ise neden kendi mvs yapısı kurarak kullanmadın ?
+    İkincisi ise neden kendi mvc yapısı kurarak kullanmadın ?
     
    Bunları cevabı ise çok basit.Bireysel olarak geliştirmeden kaynaklı.Evet, mvc yapısı kullansam daha anlaşılır ve geliştirilmesi daha kolay olur.Ama performans olarak daha yavaş olacağını düşündüğümden ve projeye başladığımda aslında bunu bitireceğimi pek düşünmediğimden mvc yapısı kullanma fikrinden kaçındım.
    
